@@ -1,13 +1,17 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
 func main() {
-	fmt.Println(SearchInsert([]int{1, 3, 5, 7}, 4))
-	// fmt.Println(strconv.Itoa(97))
+	// fmt.Println(SearchInsert([]int{1, 3, 5, 7}, 4))
+	arr := []int{1, 2, 3, 4, 5, 6, 7}
+	// test := "halo"
+	// // QuickSort(arr, 0, len(arr)-1)
+	// fmt.Println(&test)
+	// fmt.Println(&arr[1])
+	Rotate(arr, 3)
 }
 
 func search(nums []int, target int) int {
